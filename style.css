@@ -4,25 +4,23 @@
 }
 
 body {
-  background-color: yellow;
+  background-color: #f29b84;
 }
 
 h1 {
   font-family: 'Merriweather', Georgia, "Times New Roman", serif;
   size: 30px;
-  color: blue;
+  color: #c83b81;
   font-weight: bold;
   text-align: center;
-  background-color: pink;
 }
 
 p {
   font-family: 'PT Sans', Helvetica, Arial, sans-serif;
   size: 16px;
-  color: green;
+  color: black;
   font-weight:600;
   text-align: left;
-  background-color: orange;
 }
 
 img {
@@ -40,7 +38,7 @@ img {
 #nav a:link {
   display: block;
   color: #ffffff;
-  background-color: #98bf21;
+  background-color: #f25848;
   font-weight: bold;
   text-align: center;
   font-family: 'Merriweather Sans', Helvetica, Arial, sans-serif;
@@ -49,6 +47,6 @@ img {
 }
 
 #nav a:hover, #nav a:active {
-  background-color: #7a991a;
+  background-color: #c83b81;
   text-decoration: underline;
 }
