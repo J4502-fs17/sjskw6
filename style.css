@@ -24,3 +24,27 @@ p {
 img {
   border-style: none;
 }
+
+#nav {
+  padding: 0;
+}
+
+#nav li {
+  list-style-type: none;
+}
+
+#nav a:link {
+  display: block;
+  color: #ffffff;
+  background-color: #98bf21;
+  font-weight: bold;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 4px;
+  text-decoration: none;
+}
+
+#nav a:hover, #nav a:active {
+  background-color: #7a991a;
+  text-decoration: underline;
+}
