@@ -1,8 +1,15 @@
 h1 {
   font-family: 'Merriweather', Georgia, "Times New Roman", serif;
+  size: 30px;
   color: blue;
+  font-weight: bold;
+  text-align: center;
 }
 
 p {
   font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+  size: 16px;
+  color: green;
+  font-weight:400;
+  tezt-align: left;
 }
