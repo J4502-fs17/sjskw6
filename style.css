@@ -20,8 +20,8 @@ p {
   font-family: 'PT Sans', Helvetica, Arial, sans-serif;
   size: 16px;
   color: green;
-  font-weight:400;
-  tezt-align: left;
+  font-weight:600;
+  text-align: left;
   background-color: orange;
 }
 
@@ -43,7 +43,7 @@ img {
   background-color: #98bf21;
   font-weight: bold;
   text-align: center;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Merriweather Sans', Helvetica, Arial, sans-serif;
   padding: 4px;
   text-decoration: none;
 }
