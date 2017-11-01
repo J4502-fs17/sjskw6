@@ -4,33 +4,58 @@ body {
 }
 
 #container {
-  width: 95%;
+  width: 85%;
   margin: 0 auto;
 }
 
-img {
+#logo {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#mug {
   border: none;
   width: 85%;
 }
 
 h1 {
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
-  color:black;
+  font-weight:lighter;
+  color:#0cb6d5;
 }
 
 h2 {
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
-  color: black;
+  font-weight: lighter;
+  color:#0cb6d5
 }
 
 p {
   font-family: 'Oswald', Helvetica, Arial, sans-serif;
+  font-weight: lighter;
   color: black;
 }
 
 nav ul {
   display: flex;
   flex-flow: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li a {
+  display: block;
+  color: #0cb6d5;
+  font-weight: lighter;
+  padding: 10px;
+  text-decoration: none;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+nav li a:hover {
+  background-color: white;
+  color: black;
 }
 
 @media screen and (min-width: 600px) {
@@ -45,10 +70,14 @@ nav ul {
 @media screen and (min-width: 600px) {
 
     #container {
-        width: 75%;
+        width: 70%;
     }
 
-    img {
+    #logo {
+      width: 100%;
+    }
+
+    #mug {
       display: block;
       width: 66%;
       margin-top: 0.5em;
@@ -75,22 +104,28 @@ nav ul {
     grid-gap: 20px;
     grid-template-areas:
     "a a a"
-    "b b c"
+    "b b b"
+    "c c d"
   }
 
-  nav {
+  #logo {
     width: 100%;
     grid-area: a;
   }
 
-  img {
+  nav {
     width: 100%;
     grid-area: b;
+  }
+
+  #mug {
+    width: 100%;
+    grid-area: c;
 
   }
 
   p {
-    grid-area: c;
+    grid-area: d;
   }
 
 }
