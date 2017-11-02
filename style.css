@@ -4,18 +4,18 @@ body {
 }
 
 #container {
-  width: 85%;
+  width: 70%;
   margin: 0 auto;
 }
 
 #logo {
+  border: none;
   width: 100%;
-  margin: 0 auto;
 }
 
 #mug {
   border: none;
-  width: 85%;
+  width: 100%;
 }
 
 h1 {
@@ -69,12 +69,8 @@ nav li a:hover {
 
 @media screen and (min-width: 600px) {
 
-    #container {
+    # {
         width: 70%;
-    }
-
-    #logo {
-      width: 100%;
     }
 
     #mug {
@@ -98,34 +94,39 @@ nav li a:hover {
 }
 
 @media screen and (min-width:1000px) {
-  #container {
+  .item1 {
+    margin-right:auto;
+  }
+
+  nav ul li {
+    margin: 5px;
+  }
+
+
+  #index1 {
     display: grid;
     grid-template-columns: 200px 1fr 1fr;
     grid-gap: 20px;
     grid-template-areas:
     "a a a"
-    "b b b"
-    "c c d"
+    "b b c"
   }
 
-  #logo {
+
+  nav {
     width: 100%;
     grid-area: a;
   }
 
-  nav {
-    width: 100%;
-    grid-area: b;
-  }
-
   #mug {
     width: 100%;
-    grid-area: c;
+    grid-area: b;
 
   }
 
   p {
-    grid-area: d;
+    grid-area: c;
   }
+
 
 }
