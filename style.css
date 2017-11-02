@@ -34,6 +34,8 @@ p {
   font-family: 'Oswald', Helvetica, Arial, sans-serif;
   font-weight: lighter;
   color: black;
+  text-align: left;
+  font-size: 16px;
 }
 
 nav ul {
@@ -84,9 +86,7 @@ nav li a:hover {
 }
 
 @media screen and (min-width: 800px) {
-    .item1 {
-      margin-right: auto;
-    }
+
 
     nav ul li {
       margin: 5px;
@@ -94,9 +94,6 @@ nav li a:hover {
 }
 
 @media screen and (min-width:1000px) {
-  .item1 {
-    margin-right:auto;
-  }
 
   nav ul li {
     margin: 5px;
