@@ -38,6 +38,21 @@ p {
   font-size: 16px;
 }
 
+#clips a {
+  color:#0cb6d5;
+  text-decoration:none;
+}
+
+#clips a:hover {
+  color: black;
+  text-decoration:none;
+}
+
+#clips a:visited {
+  color:#0cb6d5;
+  text-decoration:none;
+}
+
 nav ul {
   display: flex;
   flex-flow: column;
